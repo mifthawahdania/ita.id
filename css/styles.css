@@ -16,7 +16,7 @@ img{
 	max-width: 100%;
 }
 nav{
-	background-color: #DBEBF4;
+	background-color: #fbd9e5;
 	position: fixed;
 	z-index: 1;
 	width: 100%;
@@ -106,8 +106,8 @@ figcaption{
 	padding: 50px;
 }
 
-.blue{
-	background-color: #DBEBF4;
+.pink{
+	background-color: #fbd9e5;
 }
 
 .project .button{
@@ -140,6 +140,4 @@ nav li a{
 }
 nav li a:hover{
 	text-decoration: underline;
-
 }
-
