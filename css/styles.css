@@ -107,7 +107,7 @@ figcaption{
 }
 
 .blue{
-	background-color: #DBEBF4;
+	background-color: #F7DAE7;
 }
 
 .project .button{
@@ -140,4 +140,5 @@ nav li a{
 }
 nav li a:hover{
 	text-decoration: underline;
+
 }
