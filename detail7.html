@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Feeds Instagram Kelas Sistem Informasi A (SIGMA)</title>
+	<link rel="stylesheet" href="css/bootstrap-grid.css" type="text/css">
+	<link rel="stylesheet" href="css/styles.css" type="text/css">
+	<link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+	<style>
+		.project-container {
+			background-color: white;
+			max-width: 1200px;
+			margin: 0 auto;
+			box-shadow: 0 0 30px rgba(0,0,0,0.1);
+		}
+		.full-width-image {
+			width: 100%;
+			height: 500px;
+			object-fit: cover;
+		}
+		.breadcrumb {
+			padding: 20px;
+			background-color: #fbd9e5;
+			font-family: 'IBM Plex Mono', monospace;
+			font-size: 14px;
+		}
+		.breadcrumb a {
+			color: black;
+			text-decoration: none;
+		}
+		.breadcrumb a:hover {
+			text-decoration: underline;
+		}
+		.project-title {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			font-size: 30pt;
+			transform: translate(-50%, -50%);
+			color: rgb(255, 255, 255);
+			text-align: center;
+			text-shadow: 2px 2px 4px rgb(0, 0, 0);
+		}
+		.image-container {
+			position: relative;
+		}
+		
+		/* Slider Styles */
+		.project-slider {
+			position: relative;
+			width: 100%;
+			overflow: hidden;
+		}
+		.slider-container {
+			display: flex;
+			transition: transform 0.5s ease;
+			width: 300%;
+		}
+		.slider-slide {
+			width: 33.33%;
+			flex-shrink: 0;
+		}
+		.slider-slide img {
+			width: 100%;
+			height: 500px;
+			object-fit: cover;
+		}
+		.slider-controls {
+			position: absolute;
+			bottom: 20px;
+			left: 50%;
+			transform: translateX(-50%);
+			display: flex;
+			gap: 10px;
+		}
+		.slider-dot {
+			width: 10px;
+			height: 10px;
+			background-color: rgba(255,255,255,0.5);
+			border-radius: 50%;
+			cursor: pointer;
+			transition: background-color 0.3s;
+		}
+		.slider-dot.active {
+			background-color: white;
+		}
+		
+		/* Slider Checkbox Hack */
+		.slider-toggle {
+			display: none;
+		}
+		#slide1:checked ~ .slider-container {
+			transform: translateX(0);
+		}
+		#slide2:checked ~ .slider-container {
+			transform: translateX(-33.33%);
+		}
+		#slide3:checked ~ .slider-container {
+			transform: translateX(-66.66%);
+		}
+	</style>
+</head>
+
+<body>
+	<nav>
+		<ul>
+			<li>Works</li>
+			<li>Experience</li>
+			<li><a href="https://instagram.com/miftwhdn" target="_blank">Contact</a></li>
+			<li class="empty"></li>
+			<li><a href="https://t.me/yaemtko" target="_blank">Telegram</a></li>
+			<li><a href="https://x.com/miftwhdnn" target="_blank">Twitter</a></li>
+			<li><a href="https://threads.com/miftwhdn" target="_blank">Threads</a></li>
+		</ul>
+	</nav>
+
+	<div class="project-container">
+		<div class="image-container">
+			<img src="img/Kiw.jpg" class="full-width-image" alt="design sigma">
+		</div>
+		<div class="breadcrumb">
+			<a href="index.html">Home</a> / Feeds Instagram Kelas Sistem Informasi A (SIGMA)
+		</div>
+		<section class="project" style="padding-top: 50px;">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm">
+						<h2>Project Overview</h2>
+						<p>Proyek desain ini bertujuan untuk menciptakan kolase foto kelompok yang unik dan ekspresif, melampaui format foto kelas tradisional. Menghasilkan produk akhir berupa media visual yang dapat digunakan sebagai kenang-kenangan dan media perkenalan yang merefleksikan kepribadian dan dinamika anggota kelompok. Secara visual menampilkan keberagaman emosi yang dialami kelompok selama masa kuliah/kegiatan, memberikan dimensi personal dan fun pada identitas kelompok Sistem Informasi A.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="project pink">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm">
+						<h2>Research & Discovery</h2>
+						<p>Proses desain mendalam meliputi:</p>
+						<ul>
+							<li>Penelitian Referensi Kultural dan Familiaritas Audiens</li>
+							<li>Analisis Kebutuhan Ekspresi dan Dinamika Kelompok</li>
+							<li>Penelitian Layout dan Hierarki Visual Foto</li>
+							<li>Penelitian Warna dan Tone Visual</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="project">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm">
+						<h2>Design Identity Development</h2>
+						<p>Pendekatan desain yang komprehensif berfokus pada:</p>
+						<ul>
+							<li>Pengembangan Palet Warna Emosi Tertarget</li>
+							<li>Pengembangan Tipografi Ekspresif dan Hierarki</li>
+							<li>Pengembangan Tata Letak Modular dan Sentralisasi</li>
+							<li>Integrasi Elemen Grafis Playful</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="project pink">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm">
+						<h2>Key Outcomes</h2>
+						<p>Hasil utama dari desain:</p>
+						<ul>
+							<li>Peningkatan Keterikatan Emosional dan Kenangan Unik</li>
+							<li>Komunikasi Identitas Kelompok yang Ekspresif</li>
+							<li>Pemanfaatan Layout untuk Keseimbangan Visual</li>
+							<li>Memaksimalkan Potensi Sosial Media Shareability</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="project">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm">
+						<h2>Project Gallery</h2>
+						<div class="project-slider">
+							<input type="radio" name="slider" id="slide1" class="slider-toggle" checked>
+							<input type="radio" name="slider" id="slide2" class="slider-toggle">
+							<input type="radio" name="slider" id="slide3" class="slider-toggle">
+                            
+
+                            <div class="slider-container">
+                                <div class="slider-slide">
+                                    <img src="img/Kiw.jpg" alt="design sigma">
+                                </div>
+                                <div class="slider-slide">
+                                    <img src="img/milad.jpg" alt="design coming soon">
+                                </div>
+                                <div class="slider-slide">
+                                    <img src="img/milad2.jpg" alt="design hitung hari">
+                                </div>
+                                
+                            </div>
+							
+						
+							<div class="slider-controls">
+								<label for="slide1" class="slider-dot"></label>
+								<label for="slide2" class="slider-dot"></label>
+								<label for="slide3" class="slider-dot"></label>
+                                
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<footer id="contact">
+		<h2>Interested in<br>
+			learning more?<br>mifthawahdania@gmail.com</h2>
+			<p>Designed & developed by Miftha Wahdania</p>
+		</footer>
+	</body>
+	</html>
